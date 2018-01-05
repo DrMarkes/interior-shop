@@ -10,6 +10,64 @@ body {
     height: 100%;
 }
 
+.g-promo {
+    float: left;
+}
+
+.g-promo h3 {
+    float: left;
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.g-promo h1 {
+    clear: both;
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 1px;
+}
+
+.g-promo p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 332px;
+}
+
+.g-promo a {
+    display: block;
+    text-decoration: none;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 22px;
+    margin-top: 32px;
+}
+
+.g-promo a:hover {
+    color:  #212121;
+    text-decoration: none;
+    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+    
+.g-promo a:active {
+    color:  #212121;
+    text-decoration: none;
+    box-shadow: none;
+}
+
 .b-home__container {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
@@ -217,8 +275,23 @@ body {
 }
 
 .b-home__promo-1 img {
+    float: left;
     min-width: 683px;
     margin-left: -15px;
+    position: relative;
+    z-index: 1;
+}
+
+.b-home-promo-1__content {
+    float: left;
+    margin-left: -683px;
+    position: relative;
+    z-index: 2;
+}
+
+.b-home-promo-1__text {
+    margin-left: 51px;
+    margin-top: 213px;
 }
 
 .b-home__trending {
@@ -352,67 +425,15 @@ body {
     margin: 0 30px !important;
 }
 
-.b-home-promo-2__text {
+.b-home-promo-2__content {
     width: 570px;
     height: 570px;
     background-image: url(../img/product-1-sm.jpg);
 }
 
-.b-home-promo-2__text h3 {
-    float: left;
+.b-home-promo-2__text {
     margin-left: 31px;
-    margin-top: 186px;
-    color:  #1e88e5;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.b-home-promo-2__text h1 {
-    clear: both;
-    color:  #212121;
-    font-size: 36px;
-    font-weight: 700;
-    margin-left: 32px;
-}
-
-.b-home-promo-2__text p {
-    color:  #6c6c6c;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    width: 332px;
-    margin-left: 31px;
-}
-
-.b-home-promo-2__text a {
-    display: block;
-    text-decoration: none;
-    background-color:  #ffffff;
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    width: 212px;
-    height: 45px;
-    color:  #212121;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 45px;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 22px;
-    margin-top: 32px;
-    margin-left: 31px;
-}
-
-.b-home-promo-2__text a:hover {
-    color:  #212121;
-    text-decoration: none;
-    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
-}
-    
-.b-home-promo-2__text a:active {
-    color:  #212121;
-    text-decoration: none;
-    box-shadow: none;
+    margin-top: 186px;    
 }
 
 .b-home__mobile-app {
