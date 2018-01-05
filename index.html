@@ -4,16 +4,17 @@
 
 <head>
    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Interior Shop for GB HTML+CSS course">
     <meta name="author" content="Sergey Kubatko">
     <link rel="icon" href="img/favicon.ico">
 
     <title>Interior Design</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -41,13 +42,13 @@
                 <h3>TRENDING</h3>
                 <h1>Fishnet Chair</h1>
                 <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black
-         or highly polished chrome.</p>
+                </p>
                 <a href="#">Order Us</a>
             </div>
-            <a class="b-home__navi" href="#">
+            <a class="b-home-header__navi" href="#">
                 <img src="img/navi.png" alt="navi">
             </a>
-            <img class="b-home__navi_active" src="img/navi_active.png" alt="active">
+            <img class="b-home-header__navi_active" src="img/navi_active.png" alt="active">
         </div>
 
         <div class="b-home__content">
@@ -70,9 +71,15 @@
 
             </div>
 
-            <div class="b-home__promo-1">
-                <a href="#"><img src="img/promo-img1.jpg" alt="promo1"></a>
-                <a href="#"><img src="img/promo-img2.jpg" alt="promo2"></a>
+            <div class="b-home__promo-1 container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#"><img src="img/promo-img1.jpg" alt="promo1"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#"><img src="img/promo-img2.jpg" alt="promo2"></a>
+                    </div>
+                </div>
             </div>
 
             <div class="b-home__trending">
@@ -93,15 +100,60 @@
             </div>
 
             <div class="b-home__hot-deal">
+               
+                <div class="b-home-hot-deal__text">
+                    <h3>Hot deal</h3>
+                    <h1>Fishnet Chair</h1>
+                    <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black
+                    </p>
+                    <a href="#">Order Us</a>
+                </div>
+                
+                <a class="b-home-hot-deal__navi" href="#">
+                    <img src="img/navi.png" alt="navi">
+                </a>
+                <img class="b-home-hot-deal__navi_active" src="img/navi_active.png" alt="active">
 
             </div>
 
-            <div class="b-home__promo-2">
+            <div class="b-home__promo-2 container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="b-home-promo-2__text">
+                            <h3>exclusive</h3>
+                            <h1>Fishnet Chair</h1>
+                            <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt
+                            </p>
+                            <a href="#">Order Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-6">
+                            <a href="#"><img src="img/product-2-sm.jpg" alt="product-2-sm"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="img/product-3-sm.jpg" alt="product-3-sm" class="last"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="img/product-4-sm.jpg" alt="product-4-sm"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="img/product-5-sm.jpg" alt="product-5-sm" class="last"></a>
+                        </div>
+                    </div>
+                    
+                </div>
 
             </div>
 
             <div class="b-home__mobile-app">
-
+                <div class="b-home-mobile-app__text">
+                    <h3>mobile app</h3>
+                    <h1>Find. Follow. Favorite.</h1>
+                    <p>Save your favorites and share your style.</p>
+                    <a href="#"><img src="img/app-store.png" alt="app-store"></a>
+                    <a href="#"><img src="img/google-play.png" alt="google-play"></a>
+                </div>
             </div>
 
         </div>
@@ -111,15 +163,68 @@
     </div>
    
     <div class="b-home__footer">
+       
+        <div class="b-home-footer__info container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Contact Us</h1>
+                    <p>132A Bridge Road Richmond VIC <br>
+                        Australia.
+                    </p>
+                    <p>Talk to us on 1300 132 <br>
+                        info@interior.com</p>
+                </div>
+                <div class="col-md-5">
+                    <h1>Useful Information</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ol>
+                                <li><a href="#">Sales terms</a></li>
+                                <li><a href="#">Customer care</a></li>
+                                <li><a href="#">Delivery</a></li>
+                            </ol>
+                        </div>
+                        <div class="col-md-6">
+                            <ol>
+                                <li><a href="#">Architect accounts</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Exchanges &amp; returns</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h1>Let’s Stay in Touch!</h1>
+                    <p>Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <h6>
+                        <input type="email" alt="email" placeholder="your email address">
+                    </h6>
+                    <a href="#"><img src="img/submit.png" alt="submit"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="b-home-footer__legal container">
+            <row>
+                <div class="col-md-4">
+                    <p>&copy;&nbsp;Copyright&nbsp;&mdash; INTERIOR 2016. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img src="img/social-links.png" alt="social-links"></a>
+                </div>
+                <div class="col-md-4">
+                    <p>Terms &amp;&nbsp;Conditions&nbsp;/ Privacy policy &amp;&nbsp;Cookies</p>
+                </div>
+            </row>
+        </div>
         
     </div>
     
-    <!-- Optional Bootstrap JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
+    
 </body>
 
 </html>

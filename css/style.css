@@ -14,7 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     max-width: 1366px;
-    min-width: 700px;
+    min-width: 1366px;
     border: 1px solid #f0f0f0;
 }
 
@@ -99,8 +99,7 @@ body {
 .b-home-header__text h1 {
     color:  #212121;
     font-size: 56px;
-    font-weight: 100;
-    line-height: 72px;
+    font-weight: 200;
     text-transform: uppercase;
 }
 
@@ -140,14 +139,14 @@ body {
     box-shadow: none;
 }
     
-.b-home__navi {
+.b-home-header__navi {
     float: left;
-    margin-top: 141px;
+    margin-top: 132px;
     margin-left: 623px;
 }
 
-.b-home__navi_active {
-    margin-top: 141px;
+.b-home-header__navi_active {
+    margin-top: 132px;
     margin-left: -80px;
 }
 
@@ -218,16 +217,12 @@ body {
 }
 
 .b-home__promo-1 img {
-    height: 681px;
-}
-
-.b-home__promo-1 a {
-    float: left;
+    min-width: 683px;
+    margin-left: -15px;
 }
 
 .b-home__trending {
     height: 1108px;
-    clear: both;
 }
 
 .b-home__trending h1 {
@@ -265,18 +260,200 @@ body {
 }
 
 .b-home__hot-deal {
-    float: left;
-    height: 800px;
+    min-height: 800px;
     background-image: url(../img/hot-deal_back-img.png);
+}
+
+.b-home-hot-deal__text {
+    float: left;
+    width: 458px;
+    margin-left: 99px;
+    margin-top: 287px;
+}
+
+.b-home-hot-deal__text h3 {
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.b-home-hot-deal__text h1 {
+    color:  #212121;
+    font-size: 56px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.b-home-hot-deal__text p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.b-home-hot-deal__text a {
+    display: block;
+    text-decoration: none;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 22px;
+    margin-top: 32px;
+}
+
+.b-home-hot-deal__text a:hover {
+    color:  #212121;
+    text-decoration: none;
+    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+    
+.b-home-hot-deal__text a:active {
+    color:  #212121;
+    text-decoration: none;
+    box-shadow: none;
+}
+    
+.b-home-hot-deal__navi {
+    clear: both;
+    float: left;
+    margin-top: 192px;
+    margin-left: 623px;
+}
+
+.b-home-hot-deal__navi_active {
+    float: left;
+    margin-top: 192px;
+    margin-left: -80px;
 }
 
 .b-home__promo-2 {
     height: 810px;
+    margin-left: 83px;
+    margin-top: 120px;
+}
+
+.b-home__promo-2 img {
+    margin-bottom: 30px;
+}
+
+.b-home__promo-2 .last {
+    padding-left: 25px;
+}
+
+.b-home__promo-2 > [class="col-md-6"] {
+    margin: 0 30px !important;
+}
+
+.b-home-promo-2__text {
+    width: 570px;
+    height: 570px;
+    background-image: url(../img/product-1-sm.jpg);
+}
+
+.b-home-promo-2__text h3 {
+    float: left;
+    margin-left: 31px;
+    margin-top: 186px;
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.b-home-promo-2__text h1 {
+    clear: both;
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+.b-home-promo-2__text p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 332px;
+    margin-left: 31px;
+}
+
+.b-home-promo-2__text a {
+    display: block;
+    text-decoration: none;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 22px;
+    margin-top: 32px;
+    margin-left: 31px;
+}
+
+.b-home-promo-2__text a:hover {
+    color:  #212121;
+    text-decoration: none;
+    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+    
+.b-home-promo-2__text a:active {
+    color:  #212121;
+    text-decoration: none;
+    box-shadow: none;
 }
 
 .b-home__mobile-app {
+    margin-top: -105px;
     height: 516px;
     background-image: url(../img/mobile-app_back-img.png);
+}
+
+
+.b-home-mobile-app__text {
+    float: left;
+    max-width: 535px;
+    margin-left: 99px;
+    margin-top: 125px;
+}
+
+.b-home-mobile-app__text h3 {
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.b-home-mobile-app__text h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+
+.b-home-mobile-app__text p {
+    color:  #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.b-home-mobile-app__text img {
+    float: left;
+    margin-top: 23px;
+    margin-right: 10px;
 }
 
 .b-home-footer__clr {    
@@ -289,4 +466,90 @@ body {
     min-width: 700px;
     height: 384px;
     margin: -384px auto 0;
+}
+
+.b-home-footer__info {
+    padding-top: 120px;
+}
+
+.b-home-footer__info h1 {
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.b-home-footer__info p {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.b-home-footer__info ol {
+    list-style-type: none;
+}
+
+.b-home-footer__info ol li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.b-home-footer__info ol li a {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.b-home-footer__info h5 {
+    float: left;
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.b-home-footer__info h6 {
+    border-width: 1px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    width: 368px;
+    height: 46px;
+}
+
+.b-home-footer__info input {
+    padding-left: 15px;
+    border-style: hidden;
+    background-color: transparent;
+    height: 44px;
+    width: 368px;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+}
+
+.b-home-footer__info a img {
+    float: right;
+    margin-top: -40px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.b-home-footer__legal {
+    margin-top: 54px;
+    text-align: center;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    font-variant: small-caps;
 }
