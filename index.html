@@ -11,7 +11,7 @@
     <meta name="author" content="Sergey Kubatko">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Interior Design</title>
+    <title>Interior Shop</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,33 +22,37 @@
 </head>
 
 <body>
-    <div class="b-home__container">
+   
+    <div class="b-home g-container">
 
-        <div class="b-home__header">
-            <a class="b-home-header__logo" href="#">
+        <div class="g-header">
+            <a class="g-header__logo" href="#">
                 <img src="img/logo.png" alt="logo">
             </a>
-            <ul class="b-home-header__menu">
-                <li class="b-home-header-menu__item_selected"><a href="#">HOME</a></li>
-                <li class="b-home-header-menu__item"><a href="#">PRODUCTS</a></li>
-                <li class="b-home-header-menu__item"><a href="#">HISTORY</a></li>
-                <li class="b-home-header-menu__item"><a href="#">SHOWROOM</a></li>
-                <li class="b-home-header-menu__item"><a href="#">CONTACT</a></li>
-            </ul>
-            <a class="b-home-header__search" href="#">
+            <a class="g-header__search" href="#">
                 <img src="img/search.png" alt="search">
             </a>
-            <div class="b-home-header__text">
+            <ul class="g-header__menu">
+                <li class="g-header-menu__item_selected"><a href="index.html">HOME</a></li>
+                <li class="g-header-menu__item"><a href="catalog.html">PRODUCTS</a></li>
+                <li class="g-header-menu__item"><a href="#">HISTORY</a></li>
+                <li class="g-header-menu__item"><a href="#">SHOWROOM</a></li>
+                <li class="g-header-menu__item"><a href="contacts.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <div class="b-home__trending-top">
+            <div class="b-home-trending-top__text">
                 <h3>TRENDING</h3>
                 <h1>Fishnet Chair</h1>
                 <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black
                 </p>
                 <a href="#">Order Us</a>
             </div>
-            <a class="b-home-header__navi" href="#">
+            <a class="b-home-trending-top__navi" href="#">
                 <img src="img/navi.png" alt="navi">
             </a>
-            <img class="b-home-header__navi_active" src="img/navi_active.png" alt="active">
+            <img class="b-home-trending-top__navi_active" src="img/navi_active.png" alt="active">
         </div>
 
         <div class="b-home__content">
@@ -178,13 +182,13 @@
 
         </div>
 
-        <div class="b-home-footer__clr"></div>
+        <div class="g-footer__clr"></div>
 
     </div>
 
-    <div class="b-home__footer">
+    <div class="g-footer">
 
-        <div class="b-home-footer__info container">
+        <div class="g-footer__info container">
             <div class="row">
                 <div class="col-md-3">
                     <h1>Contact Us</h1>
@@ -224,7 +228,7 @@
             </div>
         </div>
 
-        <div class="b-home-footer__legal container">
+        <div class="g-footer__legal container">
             <row>
                 <div class="col-md-4">
                     <p>&copy;&nbsp;Copyright&nbsp;&mdash; INTERIOR 2016. All Rights Reserved.</p>
