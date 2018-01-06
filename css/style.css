@@ -370,6 +370,11 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
+    width: 150px;
+}
+
+.b-home__featured-new h3:hover {
+    background: url(../img/arrow.png) no-repeat 141px 5px;
 }
 
 .b-home-featured-new__products {
@@ -518,6 +523,11 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
+    width: 150px;
+}
+
+.b-home__trending h3:hover {
+    background: url(../img/arrow.png) no-repeat 141px 5px;
 }
 
 .b-home-trending__products {
