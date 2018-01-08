@@ -153,22 +153,23 @@ body {
 }
 
 .g-footer__info input {
+    float: left;
     padding-left: 15px;
-    border-style: hidden;
-    background-color: transparent;
     height: 44px;
     width: 368px;
+    margin-top: 5px;
     color:  #6c6c6c;
     font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
+    border: 1px solid #d9dee1;
+    background-color:  #ffffff;
     position: relative;
     z-index: 1;
 }
 
 .g-footer__info a img {
     float: left;
-    margin-top: -40px;
+    margin-top: -30px;
     margin-left: 334px;
     position: relative;
     z-index: 2;
